@@ -15,6 +15,10 @@ public class Main {
                 System.out.println(productInfo[0]);
                 System.out.println(line);
                 //TODO implement the logic to transform this code so it can convert the information in each line into a Product objet
+                for (String values : productInfo){
+                    System.out.println(values + "💎💰");
+                }
+                System.out.println();
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
